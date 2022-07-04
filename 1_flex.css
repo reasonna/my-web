@@ -177,9 +177,9 @@ a {
     display: block;
 }
 
-/* 마우스커서 변경  */
+/* 아이패드 위 마우스커서 변경  */
 .link:hover { 
-    cursor : url(pencil.cur) 64 64, auto; 
+    cursor : url(pencil.cur) 64 64, auto;
 }
 
 /* 테이블 */
