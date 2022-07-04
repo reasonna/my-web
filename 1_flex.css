@@ -178,7 +178,7 @@ a {
 }
 
 /* 아이패드 위 마우스커서 변경  */
-.content>link:hover .contemt_ipad{ 
+.link:hover { 
     cursor : url(pencil.cur) 64 64, auto;
 }
 
