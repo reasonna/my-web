@@ -215,11 +215,8 @@ img {
     vertical-align: bottom;
 }
 
-/* 기본 이미지 설정 
-#tt-body-page figure.imageblock img, figure.imageblock img { 
-    max-width: 33% !important; display: block; margin: 0 auto; 
-} */
-
-iframe {
-    border-bottom: 10px;
-}
+/* 동영상 반응형 */
+.video-wrap {position:relative; padding-bottom:56.25%; padding-top:30px; height:0; overflow:hidden;}
+.video-wrap iframe,
+.video-wrap object,
+.video-wrap embed {position:absolute; top:0; left:0; width:100%; height:100%;}
